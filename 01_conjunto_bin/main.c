@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "conjunto.h"
 
-int main() {
+int main(){
 
 	t_conjunto A, B, C;
 
@@ -46,4 +46,3 @@ int main() {
 	// imprimir(A);
 
 }
-

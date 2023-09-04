@@ -1,10 +1,10 @@
 #ifndef CONJUNTO_H
 #define CONJUNTO_H
 
-#define maximo 1024
+#define MAX 1024
 
-typedef int t_elemento;
-typedef char t_conjunto[maximo+1]; 
+typedef int t_elemento; //todos os t_elemento sao um int
+typedef char t_conjunto[MAX+1]; //os t_conjunto sao vetores de char tamanho max+1
 
 #define SUCESSO 1
 #define NAO_EXISTE -1
